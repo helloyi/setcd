@@ -1,0 +1,23 @@
+#+TITLE: Setcd -- Structed Etcd
+
+*Setcd* is abbreviation of *Structed etcd*.
+Its core function is that to store/manage structured data to/form etcd, simply.
+At the beginning, it was created for build a configuration management platforms, quickly.
+
+*Note*: ~Beta version~
+
+* Features
+  
+  + Sotre/Manage structured data
+  + Revision with a tag
+  + Txn operations
+  + Dir reference as value (indirect access)
+  + Custom function for format ~dir reference~
+  + Custom function for check ~indirect access~
+
+* Supported Data Type
+
+  + bool, int, uint, float, string
+  + slice, array
+  + map
+  + struct
